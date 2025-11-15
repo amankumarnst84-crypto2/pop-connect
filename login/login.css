@@ -1,0 +1,88 @@
+h1{
+    color: #0A66C2;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 200px;
+}
+#form {
+    margin: 0 auto;
+    height: 260px;
+    width: 280px;
+    background-color: rgb(233,236,239);
+    padding: 15px;
+    border-radius: 6px;
+    
+}
+#name {
+    width: 250px;
+    border: 1px solid grey;
+    font-family: Helvetica;
+    border-radius: 6px;
+    padding: 12px 14px;
+
+}
+#pass{
+    width: 250px;
+    border: 1px solid grey;
+    font-family: Helvetica;
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+}
+#log{
+    height: 40px;
+    width: 280px;
+    background-color: #0A66C2;
+    font-family: Helvetica;
+    padding: 0 18px;
+    border: none;
+    color: white;
+    bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+#log:hover{
+    opacity: 30%;
+}
+a{
+    color: #2a7afa;
+    size: 12px;
+    font-weight: 500;
+    padding: 0 80px;
+    font-family: Helvetica;
+    text-decoration: none;
+    margin: -17px;
+    
+    
+    
+    
+}
+hr{
+    margin:   15px;
+    color: rgb(217,215,215);
+    font-family: Helvetica;
+}
+#new-acc{
+    width: 180px;
+    height: 40px;
+    display: block;
+    justify-content: center;
+    background-color: #2a7fb7;
+    font-weight: bold;
+    color: white;
+    padding: 0 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 50px;
+
+
+}
+#new-acc:hover{
+    background-color: #1a94e5;
+}
+*{
+    font-family: Helvetica;
+}
