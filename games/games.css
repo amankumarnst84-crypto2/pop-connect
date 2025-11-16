@@ -1,4 +1,4 @@
- body {
+        body {
             font-family: 'Inter', sans-serif;
             margin: 0;
             background-color: #F3F2EE; 
@@ -11,7 +11,6 @@
             color: #0A66C2; 
         }
 
-       
         .top-nav {
             width: 100%;
             background-color: white;
@@ -40,7 +39,7 @@
         
         .logo-link {
             text-decoration: none;
-            color: #0A66C2; 
+            color: #0A66C2;
             font-size: 24px;
             font-weight: 800;
             display: flex;
@@ -57,13 +56,13 @@
         }
 
         
-        #search-bar{
+        #search-bar {
+            display: none; 
             height: 26px;
             width: 250px;
             background-color: #eef3f8;
             border-radius: 5px;
             border: 1px solid #0A66C2;
-            display: none;
         }
 
 
@@ -73,7 +72,7 @@
             gap: 16px;
         }
 
-        
+       
         .nav-item {
             display: flex;
             flex-direction: column;
@@ -96,7 +95,6 @@
             margin-bottom: 2px;
         }
 
-        
         .btn-join {
             color: #666;
             font-weight: 600;
@@ -118,174 +116,154 @@
         .btn-signin:hover {
             opacity: 0.9;
         }
-
+        
+       
 
         .main-content {
             max-width: 1128px;
             margin: 0 auto;
             padding: 20px 16px;
-        }
-
-        
-        .topic-explorer {
-            text-align: center;
-            margin-bottom: 40px;
-            background-color: white;
-            padding: 30px 20px;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-        }
-
-        .topic-explorer h2 {
-            font-size: 32px;
-            font-weight: 400;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .topic-tags {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 8px;
-        }
-
-        .topic-tag {
-            display: inline-block;
-            background-color: white;
-            color: #666;
-            border: 1px solid #ccc;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 400;
-            transition: background-color 0.15s, border-color 0.15s;
-        }
-        .topic-tag:hover {
-            background-color: #eee;
-            border-color: #0A66C2;
-            color: #0A66C2;
-        }
-
-        
-        .editor-picks {
-            margin-bottom: 40px;
-        }
-
-        .editor-picks h3 {
-            font-size: 24px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 4px;
-        }
-        .editor-picks p {
-            font-size: 14px;
-            color: #666;
-            margin-top: 0;
-            margin-bottom: 20px;
-        }
-
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
-
-   
-        .content-card {
-            background-color: white;
-            padding: 16px;
-            border-radius: 8px;
-            border: 1px solid #eee;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            min-height: 150px;
-            transition: box-shadow 0.2s;
-        }
-
-        .content-card:hover {
-            box-shadow: 0 4px 12px rgba(17, 105, 167, 0.29);
-        }
-        
-        .card-header {
-            display: flex;
-            justify-content: space-between;
             align-items: center;
-            margin-bottom: 10px;
+            gap: 20px;
         }
         
-        .card-category {
-            font-size: 12px;
-            font-weight: 600;
-            color: #0A66C2;
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        .card-category-icon {
-            font-size: 14px;
-        }
-
-        .card-save-icon {
-            color: #666;
-            font-size: 18px;
-        }
-
-        .card-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 15px;
-            line-height: 1.3;
-        }
-        
-        .card-footer {
-            font-size: 12px;
-            color: #666;
-        }
-
-        
-        .topic-categories h3 {
-            font-size: 24px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 20px;
-        }
-        
-        .category-list {
+       
+        .card {
             background-color: white;
-            padding: 20px;
+            padding: 16px 20px;
             border-radius: 8px;
+            border: 1px solid #ddd;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-        }
-        
-        .category-list ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 15px;
-        }
-
-        .category-list li {
-            font-size: 16px;
-            padding: 10px 0;
-        }
-        
-        .category-list a {
-            color: #333;
-            font-weight: 400;
-        }
-        .category-list a:hover {
-            color: #0A66C2;
-            text-decoration: underline;
+            margin-bottom: 20px;
+            width: 100%;
         }
 
        
+        .game-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.05);
+            border: 2px solid #0A66C2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .game-title {
+            font-size: 28px;
+            font-weight: 800;
+            color: #173854;
+            margin-bottom: 10px;
+        }
+        
+        .status-display {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #999; 
+            min-height: 24px;
+            text-align: center;
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            width: 90%;
+            max-width: 300px;
+            aspect-ratio: 1 / 1; 
+            background-color: #333;
+            gap: 4px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .cell {
+            background-color: #EEF3F8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            font-weight: 800;
+            cursor: default; 
+            transition: background-color 0.2s;
+            user-select: none;
+        }
+
+        .cell:hover {
+            background-color: #D6E0E6;
+        }
+        
+       
+        .cell.x {
+            color: #0A66C2; 
+        }
+
+        .cell.o {
+            color: #FF9900; 
+        }
+        
+        .restart-button {
+            margin-top: 25px;
+            padding: 10px 20px;
+            background-color: #173854;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: default; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            opacity: 0.7; 
+        }
+        
+        
+        .game-list-section {
+            width: 100%;
+            max-width: 800px;
+        }
+        
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .game-item {
+            display: block;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+            transition: box-shadow 0.2s, transform 0.1s;
+        }
+        
+        .game-item:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .game-icon {
+            font-size: 36px;
+            line-height: 1;
+            margin-bottom: 8px;
+            color: #173854;
+        }
+        
+        .game-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        
         .bottom-nav {
             background-color: #f6f6f6; 
             border-top: 1px solid #ddd;
@@ -330,9 +308,8 @@
             margin-left: 4px;
             font-size: 16px;
         }
+        
 
-
-       
         @media (min-width: 768px) {
             
             .nav-wrapper {
@@ -348,12 +325,25 @@
             .nav-right-links {
                 margin-left: auto; 
             }
+
+            
             .main-content {
                 padding: 40px 16px;
+                flex-direction: row; 
+                justify-content: center;
+                align-items: flex-start;
             }
-            .topic-explorer h2 {
-                font-size: 40px;
+            
+            .game-list-section {
+                max-width: 350px;
+                margin-left: 30px;
+                margin-top: 20px;
             }
+            
+            .game-container {
+                margin-top: 20px;
+            }
+
             .bottom-nav-wrapper {
                 justify-content: flex-start;
                 gap: 18px; 

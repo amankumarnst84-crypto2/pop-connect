@@ -58,6 +58,7 @@
         }
         .nav-item:hover {
             color: #333;
+            text-decoration: underline;
         }
         .btn-signin {
             color: #666;
@@ -178,9 +179,6 @@
             background-position: center;
             border-radius: 8px;
             transition: 1s;
-        }
-        .hero-right:hover{
-            box-shadow: 2px 2px 2px 2px #0000002e;
         }
 
         .slogan {

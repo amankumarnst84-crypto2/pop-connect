@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-Connect Job Search</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jobs.css">
+    
+</head>
+<body>
+
+    
+    <nav class="top-nav">
+        <div class="nav-wrapper">
+            <div class="nav-left">
+               
+                <a href="../home.html" class="logo-link">
+                    <span class="logo-icon">&#x25C7;</span>
+                    <span class="logo-text">Pop-Connect</span>
+                </a>
+              
+                <label for="search-bar"></label>
+                 <input type="text" placeholder=" Search for people, jobs, and more..." name="search-bar" id="search-bar">
+                 
+            </div>
+
+            <div class="nav-right-links">
+                
+               
+                <a href="../top-content/top.html" class="nav-item">
+                    
+                    Top Content
+                </a>
+                <a href="../people/people.html" class="nav-item">
+                    
+                    People
+                </a>
+                
+                <a href="../jobs/jobs.html" class="nav-item nav-item-active">
+                   
+                    Jobs
+                </a>
+                <a href="../games/games.html" class="nav-item">
+                   
+                    Games
+                </a>
+
+            
+                <a href="#" class="btn-join">Join now</a>
+
+                
+                <a href="#" class="btn-signin">Sign in</a>
+            </div>
+        </div>
+    </nav>
+    
+   
+    <main class="main-content">
+        
+        
+        <div class="job-search-bar">
+            <div class="search-form">
+                <input type="text" placeholder="Search by title, skill, or company" class="search-input" value="Software Engineer">
+                <input type="text" placeholder="Location (e.g., Remote, Newton School)" class="search-input" value="Remote">
+                <button class="search-btn">Search Jobs</button>
+            </div>
+        </div>
+        
+        <div class="job-grid">
+            
+       
+            <div class="filters-column">
+                
+                <div class="filter-card">
+                    <h3>Filter Results (12,890 Jobs)</h3>
+                    
+                    <div class="filter-group">
+                        <h4>Date Posted</h4>
+                        <select>
+                            <option>Past 24 hours</option>
+                            <option>Past week</option>
+                            <option selected>Past month</option>
+                            <option>Any time</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h4>Job Type</h4>
+                        <select>
+                            <option>Full-time</option>
+                            <option>Part-time</option>
+                            <option>Contract</option>
+                            <option>Internship</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h4>Experience Level</h4>
+                        <select>
+                            <option>Entry Level</option>
+                            <option>Associate</option>
+                            <option selected>Mid-Senior Level</option>
+                            <option>Director</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4>Remote Type</h4>
+                        <select>
+                            <option selected>Remote</option>
+                            <option>On-site</option>
+                            <option>Hybrid</option>
+                        </select>
+                    </div>
+
+                    <a href="#" style="display: block; margin-top: 10px; font-size: 14px; font-weight: 600;">Show all filters...</a>
+                </div>
+                
+          
+                <div class="filter-card">
+                    <h3>Career Tools</h3>
+                    <a href="#" class="discover-link" style="padding: 5px 0; display: block; font-size: 14px;">Salary Insights</a>
+                    <a href="#" class="discover-link" style="padding: 5px 0; display: block; font-size: 14px;">Interview Prep</a>
+                    <a href="#" class="discover-link" style="padding: 5px 0; display: block; font-size: 14px;">Resume Builder</a>
+                    <a href="#" class="discover-link" style="padding: 5px 0; display: block; font-size: 14px;">Job Alerts</a>
+                </div>
+                
+            </div>
+
+           
+            <div class="list-column">
+                <h2 style="font-size: 20px; font-weight: 700; margin: 0 0 15px 0;">Showing 12,890 Software Engineer Jobs</h2>
+                
+                <ul class="job-list">
+                    
+                    
+                    <li class="job-item job-item-active">
+                        <h4 class="job-title">Senior Full Stack Engineer (Remote)</h4>
+                        <p class="job-company">Tech Innovators Corp</p>
+                        <p class="job-location">Remote</p>
+                        <p class="job-time">Posted 1 day ago</p>
+                        <div class="job-tags">
+                            <span class="job-tag">Easy Apply</span>
+                            <span class="job-tag">Node.js</span>
+                            <span class="job-tag">React</span>
+                            <span class="job-tag">Mid-Senior</span>
+                        </div>
+                    </li>
+
+                
+                    <li class="job-item">
+                        <h4 class="job-title">Embedded Software Engineer</h4>
+                        <p class="job-company">Autonomous Systems Inc.</p>
+                        <p class="job-location">San Jose, CA (Hybrid)</p>
+                        <p class="job-time">Posted 3 days ago</p>
+                        <div class="job-tags">
+                            <span class="job-tag">C++</span>
+                            <span class="job-tag">Embedded</span>
+                            <span class="job-tag">Full-time</span>
+                        </div>
+                    </li>
+
+            
+                    <li class="job-item">
+                        <h4 class="job-title">Software Development Intern</h4>
+                        <p class="job-company">Global Data Solutions</p>
+                        <p class="job-location">New York, NY</p>
+                        <p class="job-time">Posted 1 week ago</p>
+                        <div class="job-tags">
+                            <span class="job-tag">Internship</span>
+                            <span class="job-tag">Python</span>
+                        </div>
+                    </li>
+                    
+                   
+                    <li class="job-item">
+                        <h4 class="job-title">Backend Software Engineer, Payments</h4>
+                        <p class="job-company">Fintech Dynamics</p>
+                        <p class="job-location">Remote (US)</p>
+                        <p class="job-time">Posted 2 days ago</p>
+                        <div class="job-tags">
+                            <span class="job-tag">Easy Apply</span>
+                            <span class="job-tag">GoLang</span>
+                            <span class="job-tag">Kubernetes</span>
+                        </div>
+                    </li>
+                   
+                    <li class="job-item">
+                        <h4 class="job-title">Cloud Infrastructure Engineer</h4>
+                        <p class="job-company">Azure Services Partner</p>
+                        <p class="job-location">Seattle, WA</p>
+                        <p class="job-time">Posted 5 days ago</p>
+                        <div class="job-tags">
+                            <span class="job-tag">Cloud</span>
+                            <span class="job-tag">DevOps</span>
+                        </div>
+                    </li>
+                    
+                </ul>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="#" class="btn-save" style="border: 1px solid #666; color: #333;">Load More Jobs</a>
+                </div>
+                
+            </div>
+            
+           
+            <div class="details-column">
+                <div class="job-details-panel">
+                    <div class="details-header">
+                        <h2>Senior Full Stack Engineer (Remote)</h2>
+                        <p class="details-company">Tech Innovators Corp</p>
+                        <p class="details-location">Remote - Full-time</p>
+                        <p class="details-type" style="color: #008060; font-weight: 600;">Easy Apply - Actively recruiting</p>
+                    </div>
+                    
+                    <div class="details-actions">
+                        <button class="btn-apply">Easy Apply</button>
+                        <button class="btn-save">Save</button>
+                    </div>
+                    
+                    <div class="details-section">
+                        <h3>About the Role</h3>
+                        <div class="details-description">
+                            <p>Tech Innovators Corp is seeking a highly skilled and motivated Senior Full Stack Engineer to join our fully remote team. You will be instrumental in designing, building, and maintaining our next-generation platform features, working across the entire stack from database to user interface.</p>
+                            <p>We are looking for someone who thrives in a fast-paced environment and is passionate about delivering high-quality, scalable code.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="details-section">
+                        <h3>Key Responsibilities</h3>
+                        <div class="details-description">
+                            <ul>
+                                <li>Develop and deploy robust backend services using Node.js and REST APIs.</li>
+                                <li>Build responsive and high-performance user interfaces using React, Tailwind CSS, and modern state management.</li>
+                                <li>Collaborate with product managers and designers to translate requirements into technical specifications.</li>
+                                <li>Mentor junior engineers and promote best practices for code quality and testing.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="details-section">
+                        <h3>Minimum Qualifications</h3>
+                        <div class="details-description">
+                            <ul>
+                                <li>5+ years of professional experience in software development.</li>
+                                <li>Expertise in JavaScript/TypeScript, Node.js, and a modern frontend framework (React, Angular, Vue).</li>
+                                <li>Strong proficiency with SQL/NoSQL databases (e.g., PostgreSQL, MongoDB).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+                    <div class="ad-placeholder">
+                        <p>Sponsored Content</p>
+                        <p style="font-weight: 700; color: #333;">Level up your interview skills with Pop-Connect Premium!</p>
+                        <a href="#" class="btn-apply" style="display: block; margin-top: 10px;">Try Premium Free</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <nav class="bottom-nav">
+        <div class="bottom-nav-wrapper">
+            <span class="footer-logo-small">Pop-Connect</span>
+            <span>&copy; 2025</span>
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">User Agreement</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Copyright Policy</a>
+            <a href="#">Brand Policy</a>
+            <a href="#">Guest Controls</a>
+            <a href="#">Community Guidelines</a>
+            <span class="language-select">
+                Language 
+            </span>
+        </div>
+    </nav>
+    
+</body>
+</html>
